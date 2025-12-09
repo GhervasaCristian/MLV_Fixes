@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1765290889 source:c:\users\admin\documents\codeblocks\mlv_repairc++\main.cpp
+	<iostream>
+	<fstream>
+	<cstdint>
+	<cstdio>
+	<vector>
+	<string>
+	<cstring>
+	<cctype>
+	<stdarg.h>
+	<algorithm>
+	<sys/stat.h>
+

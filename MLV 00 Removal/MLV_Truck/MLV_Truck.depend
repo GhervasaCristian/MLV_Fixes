@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1765286457 source:c:\users\admin\documents\codeblocks\mlv_truck\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+
