@@ -4,7 +4,7 @@ This repository is only about fixing issues with MLV files created by Magic Lant
 # MLV 00 Removal
 
 A simple toolset to inspect and repair MLV files with trailing `00` bytes at the end of the file, which can cause invalid blockSize errors in MLV processing applications.
-
+Link to MLVApp: https://github.com/ilia3101/MLV-App
 ---
 
 ## Features
