@@ -10,7 +10,7 @@ This issue is described in the original MLV-App repository: [MLV-App Issue #305]
 
 Some MLV files may end with extra zero bytes. When MLV processing tools (like MLV-App) read such files, they may encounter a block with `blockSize == 0`, which causes a **corrupted file error**:
 
-![BlockSize 0 Example](https://raw.githubusercontent.com/GhervasaCristian/MLV_Fixes/refs/heads/main/MLV%2000%20Removal/src/Menu_00_1.pngg)
+![BlockSize 0 Example](https://raw.githubusercontent.com/GhervasaCristian/MLV_Fixes/main/MLV%2000%20Removal/src/blocksize%20%270%27.png)
 
 This happens because the reader interprets the trailing zeros as a malformed block, crashing or refusing to process the file.
 
