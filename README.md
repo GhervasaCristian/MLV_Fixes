@@ -1,6 +1,6 @@
 # MLV 00 Removal
 
-A simple toolset to inspect and repair MLV files with **trailing `00` bytes** at the end of the file, which can cause invalid `blockSize == 0` errors in MLV processing applications.
+A simple toolset to inspect and repair MLV files with **trailing `00` bytes** at the end of the file, which can cause invalid `blockSize == 0` errors in MLV processing applications. This issue may appear if the camera remains out of space while recording.
 
 This issue is described in the original MLV-App repository: [MLV-App Issue #305](https://github.com/ilia3101/MLV-App/issues/305).
 
