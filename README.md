@@ -42,21 +42,13 @@ Example menu screenshot:
 1. Start with Menu.bat
 
 MLV_Fix/
-
 └─ MLV 00 Removal/
-
 ├─ Menu.bat
-
 ├─ MLV_RepairC++/bin/Release/MLV_Error_Finder.exe
-
 └─ MLV_Truck/bin/Release/MLV_Truck.exe
-
 └─ src/
-
 ├─ blocksize '0'.png
-
 ├─ Menu_00_0.png
-
 └─ Menu_00_1.png
 
 
@@ -72,10 +64,11 @@ MLV_Fix/
 
 ## Notes
 
+- Many thanks to @masc4ii for providing the checking code for blockSize '0'.
 - The Error Finder only detects errors; it will not modify your files.  
 - MLV Truck safely removes trailing zeros at EOF and will never delete more than necessary.  
 - Compatible with large MLV files (multi-GB).  
-- Many thanks to @masc4ii for providing the checking code for blockSize '0'.
+
 ---
 
 ## License
