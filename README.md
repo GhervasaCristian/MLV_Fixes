@@ -75,7 +75,7 @@ MLV_Fix/
 - The Error Finder only detects errors; it will not modify your files.  
 - MLV Truck safely removes trailing zeros at EOF and will never delete more than necessary.  
 - Compatible with large MLV files (multi-GB).  
-
+- Many thanks to ![masc4ii](https://github.com/masc4ii)
 ---
 
 ## License
