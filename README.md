@@ -4,15 +4,17 @@ A simple toolset to inspect and repair MLV files with **trailing `00` bytes** at
 
 This issue is described in the original MLV-App repository: [MLV-App Issue #305](https://github.com/ilia3101/MLV-App/issues/305).
 
+![Invalid blockSize '0' Error](https://raw.githubusercontent.com/GhervasaCristian/MLV_Fixes/refs/heads/main/MLV%2000%20Removal/src/Invalid%20blockSize%20'0'.png)
+
 ---
 
 ## How the Error Works
 
 Some MLV files may end with extra zero bytes. When MLV processing tools (like MLV-App) read such files, they may encounter a block with `blockSize == 0`, which causes a **corrupted file error**:
 
-![BlockSize 0 Example](https://raw.githubusercontent.com/GhervasaCristian/MLV_Fixes/main/MLV%2000%20Removal/src/blocksize%20%270%27.png)
-
 This happens because the reader interprets the trailing zeros as a malformed block, crashing or refusing to process the file.
+
+![BlockSize 0 Example in HeX](https://raw.githubusercontent.com/GhervasaCristian/MLV_Fixes/main/MLV%2000%20Removal/src/blocksize%20%270%27.png)
 
 ---
 
@@ -24,14 +26,14 @@ This happens because the reader interprets the trailing zeros as a malformed blo
 - Helps locate corrupted areas visually and in hex.  
 
 Example menu screenshot:  
-![Menu Error Finder](MLV 00 Removal/src/Menu_00_0.png)
+![Menu Error Finder](https://raw.githubusercontent.com/GhervasaCristian/MLV_Fixes/refs/heads/main/MLV%2000%20Removal/src/Menu_00_1.png)
 
 ### MLV Truck (`MLV_Truck.exe`)
 - Safely truncates trailing zero bytes at the end of MLV files.  
 - Fully portable and safe: writes changes to a temporary file before replacing the original.  
 
 Example menu screenshot:  
-![Menu MLV Truck](src/Menu_00_1.png)
+![Menu MLV Truck](https://raw.githubusercontent.com/GhervasaCristian/MLV_Fixes/refs/heads/main/MLV%2000%20Removal/src/Menu_00_2.png)
 
 ---
 
