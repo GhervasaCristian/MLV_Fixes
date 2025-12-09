@@ -24,7 +24,7 @@ This happens because the reader interprets the trailing zeros as a malformed blo
 - Helps locate corrupted areas visually and in hex.  
 
 Example menu screenshot:  
-![Menu Error Finder](src/Menu_00_0.png)
+![Menu Error Finder](MLV 00 Removal/src/Menu_00_0.png)
 
 ### MLV Truck (`MLV_Truck.exe`)
 - Safely truncates trailing zero bytes at the end of MLV files.  
