@@ -81,4 +81,4 @@ MLV_Fix/
 
 ## License
 
-[MIT License](LICENSE) (or your preferred license)
+[GPLv3](LICENSE) (or your preferred license)
