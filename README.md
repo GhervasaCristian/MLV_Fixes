@@ -78,6 +78,13 @@ MLV_Fix/
 - Compatible with large MLV files (multi-GB).  
 
 ---
+## To Do
+
+ - Make GUI for the App
+ - Sometimes, .M00 is missing. We should implement interpolation between the frames of the only file we have.
+ - Interpolation detection shall be notified. Applied only if the user want. Shall be a different menu in the GUI.
+ - Add the other graphical corrupted frames. Sometimes a single line is damaged, for only one frame. Other times, half of the image is completly black.
+ ---
 
 ## License
 
